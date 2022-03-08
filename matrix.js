@@ -4,45 +4,7 @@ const ctx = canvas.getContext("2d");
 let cw = window.innerWidth;
 let ch = window.innerHeight;
 
-let charArr = [
-  "a",
-  "b",
-  "c",
-  "d",
-  "e",
-  "f",
-  "g",
-  "h",
-  "i",
-  "j",
-  "k",
-  "l",
-  "m",
-  "n",
-  "o",
-  "p",
-  "q",
-  "r",
-  "s",
-  "t",
-  "u",
-  "v",
-  "w",
-  "x",
-  "y",
-  "z",
-  "1",
-  "2",
-  "3",
-  "4",
-  "5",
-  "6",
-  "7",
-  "8",
-  "9",
-  "0",
-];
-
+let charArr = ['ア', 'カ', 'ガ','サ','リ','た','ズ','な','は','ン','フ','オ','や','ら','わ','い','き','ホ','ラ','ロ','ヲ','ウ','ニ','ミ','六','八','四','十','九'];
 let maxCharCount = 20;
 let fallingCharArr = [];
 let fontSize = 15;
